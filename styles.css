@@ -1,0 +1,148 @@
+/* Reset styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background-image.png'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+/* Header styles */
+header {
+    background-color: #333333;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 2em;
+    margin: 2em 0;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Owner container styles */
+.owners-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.owner {
+    background-color: #444;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+    text-align: center;
+    width: 45%;
+    box-sizing: border-box;
+    border: 2px solid #008cff; /* Orange border */
+}
+
+.owner img {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 0.5em;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7em;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555555;
+}
+
+/* Discord logo styles */
+#contact a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#contact a img {
+    border-radius: 50%;
+    max-width: 50px;
+    height: auto;
+}

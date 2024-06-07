@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FiveM Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Nevers</h1>
+            <nav>
+                <ul>
+                    <li><a href="#info">Server Info</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#owners">Owners</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="info" class="server-info">
+            <h2>Server Info</h2>
+            <p>Server IP: 123.45.67.89</p>
+            <p>Server Status: <span id="server-status">Loading...</span></p>
+            <p id="online-players">Online Players: Loading...</p>
+        </section>
+
+        <section id="about">
+            <h2>About Our Server</h2>
+            <p>Welcome to the best FiveM server!</p>
+            <p>We offer a unique gaming experience with various features and an active community.</p>
+        </section>
+
+        <section id="owners">
+            <h2>Server Owners</h2>
+            <div class="owners-container">
+                <div class="owner">
+                    <img src="images/logo1.png" alt="Owner 1 Logo">
+                    <h3>Owner 1</h3>
+                    <p>Name: John Doe</p>
+                    <p>Role: Founder</p>
+                </div>
+                <div class="owner">
+                    <img src="images/logo2.png" alt="Owner 2 Logo">
+                    <h3>Owner 2</h3>
+                    <p>Name: Jane Smith</p>
+                    <p>Role: Co-Founder</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <input type="text" id="message" name="message" required>
+                <button type="submit">Send</button>
+            </form>
+            <a href="https://discord.gg/kbdV7URMWG" target="_blank"><img src="images/discord_logo.png" alt="Discord" width="50"></a>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 FiveM Server. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
